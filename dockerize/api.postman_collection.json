@@ -1,0 +1,80 @@
+{
+	"info": {
+		"_postman_id": "b67b01ba-2acb-46b1-8367-fbcace65f93f",
+		"name": "api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "28708511"
+	},
+	"item": [
+		{
+			"name": "sum1n/10",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8000/sum1n/10"
+			},
+			"response": []
+		},
+		{
+			"name": "post reverse",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:8000/reverse"
+			},
+			"response": []
+		},
+		{
+			"name": "get fibo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/fibo?n=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"fibo"
+					],
+					"query": [
+						{
+							"key": "n",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "put list",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": "http://localhost:8000/list"
+			},
+			"response": []
+		},
+		{
+			"name": "get list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8000/list"
+			},
+			"response": []
+		},
+		{
+			"name": "post calc",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:8000/calculator"
+			},
+			"response": []
+		}
+	]
+}
